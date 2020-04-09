@@ -18,7 +18,7 @@ html {
     flex-direction: column;
 }
 nav {
-    position: fixed;
+    position: fixed; 
     top: 0;
     display: flex;
     width: 1280px;
@@ -56,11 +56,12 @@ nav {
 header {
     background: url(..//img/header.png) no-repeat;
     width: 1280px;
-    height: 578px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Helvetica LT Condensed';
 }
 
 header h1 {
@@ -125,6 +126,7 @@ header button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Helvetica LT Condensed';
 }
 .wrapped h2 {
     width: 629px;
@@ -168,6 +170,7 @@ header button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Helvetica LT Condensed';
 }
 .man {
     width: 450px;
@@ -187,9 +190,10 @@ header button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Helvetica LT Condensed';
 }
 .wrap h2 {
-    font-size: 78px;
+    font-size: 92px;
     color: #FFFFFF;
     opacity: 0.2;
     font-weight: bold;
@@ -228,6 +232,7 @@ header button {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    font-family: 'Helvetica LT Condensed';
 }
 .form {
     display: flex;
@@ -236,6 +241,7 @@ header button {
     justify-content: space-around;
     width: 60%;
     height: 80%;
+    font-family: 'Helvetica LT Condensed';
 }
 .form__input-name {
     font-size: 14px;
@@ -275,4 +281,17 @@ header button {
     border-radius: 50%;
     background: url(..//img/check.png) no-repeat;
     margin: 42px 0;
+}
+footer {
+    background-color: #00D089;
+    height: 41px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica LT Condensed';
+}
+footer h6 {
+    color: #FFFFFF;
+    font-size: 14px;
 }
