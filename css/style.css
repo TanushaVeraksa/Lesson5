@@ -4,6 +4,10 @@ body {
     min-height: 100vw;
     width: 100%;
 }
+.main-container {
+    position: relative;
+    top: 88px;
+}
 *{
     box-sizing: border-box;
 }
