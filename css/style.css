@@ -18,7 +18,7 @@ html {
     flex-direction: column;
 }
 nav {
-    position: fixed; 
+    position: fixed; /*не понимаю fixed или stick*/
     top: 0;
     display: flex;
     width: 1280px;
